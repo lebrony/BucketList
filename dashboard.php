@@ -14,8 +14,8 @@
  *
  * @category   CategoryName
  * @package    BucketListApp
- * @author     Original Author <author@example.com>
- * @author     Another Author <another@example.com>
+ * @author     Adam Simon <asandler778@gmail.com>
+ * @author     Tatu Kassim <another@example.com>
  * @copyright  1997-2005 The PHP Group
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @version    SVN: $Id$
@@ -34,14 +34,29 @@ require 'session.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+    <title>Bucketlist | Dashboard</title>
 </head>
 
 <body>
-    <a href="logout.php">Logout</a>
-    <a href="change_password.php">Change Password</a>
-    <a href="personal_details.php">Personal Details</a>
-    <a href="education_background.php">Education Background</a>
+    <div class="dash-container">
+        <div class="dash-content">
+            <h1 class="dash-head">
+                <span>B L</span>
+            </h1>
+        <ul class="dash">
+            <li><a href=""><i class="fas fa-home"></i></a></li>
+            <li><a href=""><i class="fas fa-search"></i></a></li>
+            <li><a href=""><i class="fas fa-plus"></i></a></li>
+            <li><a href=""><i class="fas fa-bell"></i></a></li>
+            <li><a href=""><i class="fas fa-user"></i></a></li>
+        </ul>
+        </div> 
+    </div>
+    <div class="dash-main">
+            
+    </div>
 </body>
 
 </html>
